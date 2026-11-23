@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "jiraLenovo": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-atlassian"],
+      "env": {
+        "JIRA_URL": "https://jira.tc.lenovo.com",
+        "JIRA_PERSONAL_TOKEN": "${JIRA_PERSONAL_TOKEN}",
+        "READ_ONLY_MODE": "true"
+      },
+      "tools": ["*"]
+    }
+  }
+}
