@@ -7,6 +7,7 @@
       "env": {
         "JIRA_URL": "https://jira.tc.lenovo.com",
         "JIRA_PERSONAL_TOKEN": "${JIRA_PERSONAL_TOKEN}",
+        "JIRA_PROJECTS_FILTER": "BAIO",
         "READ_ONLY_MODE": "true"
       },
       "tools": ["*"]

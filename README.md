@@ -10,7 +10,7 @@ GitHub Copilot reads Lenovo Jira Data Center at https://jira.tc.lenovo.com. That
 4. Open this repository in VS Code with GitHub Copilot, or start Copilot CLI from the repository root, and trust the folder.
 5. Ask Copilot: "Use jiraLenovo to fetch BAIO-261. Do not change the ticket." Confirm the reply comes from that tool result.
 
-Copilot reads `.mcp.json`. The server is `jiraLenovo` (`uvx mcp-atlassian`) with `READ_ONLY_MODE=true`.
+Copilot reads `.mcp.json`. The server is `jiraLenovo` (`uvx mcp-atlassian`), limited to the BAIO project, with `READ_ONLY_MODE=true`.
 
 `jira.tc.lenovo.com` is on the Lenovo private network. Run Copilot on a machine that can open that site. GitHub-hosted Copilot cloud agent cannot reach it.
 
